@@ -1,0 +1,37 @@
+<!-- derived from https://codeberg.org/ltguillaume/soothy -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="icon.png">
+		<link rel="manifest" href="style.json">
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body id="body">
+		<select id="sound">
+			<option value="blue"></option>
+			<option value="brown"></option>
+			<option value="fuzz"></option>
+			<option value="gray"></option>
+			<option value="gray2"></option>
+			<option value="pink"></option>
+			<option value="white"></option>
+		</select>
+		<select id="timer">
+			<option value="1"></option>
+			<option value="5"></option>
+			<option value="15"></option>
+			<option value="30"></option>
+			<option value="60"></option>
+			<option value="120"></option>
+			<option value="480"></option>
+			<option value="720"></option>
+		</select>
+		<div id="play"></div>
+		<div id="countdown">
+			<span id="hours"></span><span id="minutes"></span><span id="seconds"></span>
+		</div>
+	</body>
+	<script src="main.js"></script>
+</html>
